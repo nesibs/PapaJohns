@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Document</title>
+
+    <style>
+      #slider {
+        width: 80%;
+        height: 80vh;
+        margin: 10vh auto;
+        box-shadow: 0 0 10px #333;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="border-b">
+      <!-- Logo -->
+      <div class="flex justify-evenly items-center py-3">
+        <div class="text-red-600 font-extrabold text-3xl">PAPA JOHNs</div>
+
+        <div
+          class="flex items-center text-sm font-semibold text-black cursor-pointer"
+        >
+          🌐 <span class="ml-1">Azərbaycan</span> ▼
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center gap-10 bg-red-600">
+        <div class="w-30 h-20">
+          <img class="w-full h-full" src="img/papalogo.png" alt="" />
+        </div>
+
+        <ul
+          id="categList"
+          class="flex flex-wrap gap-3 text-sm font-semibold text-black"
+        ></ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="headSec" class=" ">
+      <div class="flex justify-center mt-4 bg-gray-100">
+        <div class="bg-gray-100 flex items-center gap-2 ">
+          <span class="text-lg font-semibold text-gray-800">
+            Promo kodunuz var?
+          </span>
+          <a href="#" class="text-teal-600 font-semibold hover:underline">
+            Endirimdən istifadə edin!
+          </a>
+          <input
+            type="text"
+            placeholder="Promo kodu daxil edin"
+            class="border border-teal-600 rounded px-4 py-2 outline-none focus:ring-2 focus:ring-teal-400"
+          />
+          <button
+            class="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded shadow"
+          >
+            OK
+          </button>
+        </div>
+      </div>
+         <div id="slider"></div>
+    
+      </section>
+      
+      <div id="cards" class="flex justify-center gap-3 flex-wrap"></div>
+    </main>
+    <footer
+      class="bg-red-700 text-white px-6 py-3 flex justify-between items-center text-sm"
+    >
+      <div class="flex items-center space-x-1">
+        <span>©</span>
+        <span>PJA 2024</span>
+      </div>
+      <div class="flex space-x-4 text-gray-200">
+        <a href="#" class="hover:underline">Haqqımızda</a>
+        <a href="#" class="hover:underline">Sual və Cavab</a>
+        <a href="#" class="hover:underline">Karyera</a>
+        <a href="#" class="hover:underline">Xəmir</a>
+        <a href="#" class="hover:underline">Papa Talk</a>
+        <a href="#" class="hover:underline">Şərtlər və Qaydalar</a>
+      </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/service.js " type="module"></script>
+  </body>
+</html>
