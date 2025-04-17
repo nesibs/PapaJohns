@@ -117,9 +117,9 @@ window.printHeadSec = (status) => {
     status && localStorage.clear()
     cards.innerHTML = ` <section id="headSec" class="flex justify-center items-center w-full">
                            <div class='w-full'> 
-                            <div class="flex justify-center mt-4 bg-gray-100">
+                            <div class="flex flex-wrap justify-center mt-4 bg-gray-100">
                                     <div class="bg-gray-100 flex items-center gap-2 ">
-                                    <span class="text-lg font-semibold text-gray-800">
+                                    <span class=" text-[18px] md:text-lg font-semibold text-gray-800">
                                         Promo kodunuz var?
                                     </span>
                                     <a href="#" class="text-teal-600 font-semibold hover:underline">
@@ -128,7 +128,7 @@ window.printHeadSec = (status) => {
                                     <input
                                         type="text"
                                         placeholder="Promo kodu daxil edin"
-                                        class="border border-teal-600 rounded px-4 py-2 outline-none focus:ring-2 focus:ring-teal-400"
+                                        class="border border-teal-600 rounded px-2  md:px-4 py-2 outline-none focus:ring-2 focus:ring-teal-400"
                                     />
                                     <button
                                         class="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded shadow"

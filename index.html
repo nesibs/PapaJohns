@@ -18,56 +18,47 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg-gray-50 text-gray-900">
     <header class="border-b">
       <!-- Logo -->
-      <div class="flex justify-evenly items-center py-3">
-        <div class="text-red-600 font-extrabold text-3xl">PAPA JOHNs</div>
+      <div class="flex flex-col sm:flex-row justify-between items-center py-3 px-4">
+        <div class="text-red-600 font-extrabold text-2xl sm:text-3xl">PAPA JOHNs</div>
 
-        <div
-          class="flex items-center text-sm font-semibold text-black cursor-pointer"
-        >
+        <div class="flex items-center text-sm font-semibold text-black mt-2 sm:mt-0 cursor-pointer">
           🌐 <span class="ml-1">Azərbaycan</span> ▼
         </div>
       </div>
 
-      <div class="flex justify-center items-center gap-10 bg-red-600">
-        <div class="w-30 h-20">
-          <img class="w-full h-full" src="img/papalogo.png" alt="" />
+      <div class="flex flex-col lg:flex-row justify-center items-center gap-4 bg-red-600 py-4 px-2">
+        <div class="w-20 h-20">
+          <img class="w-full h-full object-contain" src="img/papalogo.png" alt="logo" />
         </div>
 
-        <ul
-          id="categList"
-          class="flex flex-wrap gap-3 text-sm font-semibold text-black"
-        ></ul>
+        <ul id="categList" class="flex flex-wrap justify-center gap-3 text-xs sm:text-sm font-semibold text-black"></ul>
       </div>
     </header>
 
-    <main>
-
-        <div class="flex justify-center items-center mt-10 mb-10">
-          <div class="bg-red-600 p-3 flex flex-col items-center gap-2 justify-center w-[50vw]" id="inps">
-              <input class="bg-white text-shadow-black w-[100%] px-3 p-1 border rounded-[15px]" placeholder="img" type="text">
-              <input class="bg-white text-shadow-black w-[100%] px-3 p-1 border rounded-[15px]" placeholder="title" type="text">
-              <input class="bg-white text-shadow-black w-[100%] px-3 p-1 border rounded-[15px]" placeholder="composition" type="text">
-              <input class="bg-white text-shadow-black w-[100%] px-3 p-1 border rounded-[15px]" placeholder="price" type="text">
-              <input class="bg-white text-shadow-black w-[100%] px-3 p-1 border rounded-[15px]" placeholder="categ" type="text">
-              <button class="bg-white text-shadow-black px-5 py-1 border rounded-[15px]" onclick="handleCrate()">post pizza</button>
-          </div>
+    <main class="px-4">
+      <div class="flex justify-center items-center mt-10 mb-10">
+        <div class="bg-red-600 p-4 flex flex-col items-center gap-3 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] rounded-xl shadow-md" id="inps">
+          <input class="w-full bg-white px-3 py-2 border rounded-lg" placeholder="img" type="text">
+          <input class="w-full bg-white px-3 py-2 border rounded-lg" placeholder="title" type="text">
+          <input class="w-full bg-white px-3 py-2 border rounded-lg" placeholder="composition" type="text">
+          <input class="w-full bg-white px-3 py-2 border rounded-lg" placeholder="price" type="text">
+          <input class="w-full bg-white px-3 py-2 border rounded-lg" placeholder="categ" type="text">
+          <button class="bg-white text-black font-bold px-5 py-2 border rounded-lg hover:bg-gray-200 transition" onclick="handleCrate()">Post Pizza</button>
+        </div>
       </div>
-      
-      <div id="cards" class="flex justify-center gap-3 flex-wrap"></div>
-    
+
+      <div id="cards" class="flex justify-center gap-4 flex-wrap px-2"></div>
     </main>
 
-    <footer
-      class="bg-red-700 text-white px-6 py-3 flex justify-between items-center text-sm"
-    >
+    <footer class="bg-red-700 text-white px-6 py-4 flex flex-col md:flex-row justify-between items-center text-sm gap-3">
       <div class="flex items-center space-x-1">
         <span>©</span>
         <span>PJA 2024</span>
       </div>
-      <div class="flex space-x-4 text-gray-200">
+      <div class="flex flex-wrap justify-center gap-2 md:gap-4 text-gray-200 text-xs sm:text-sm">
         <a href="#" class="hover:underline">Haqqımızda</a>
         <a href="#" class="hover:underline">Sual və Cavab</a>
         <a href="#" class="hover:underline">Karyera</a>
@@ -76,15 +67,13 @@
         <a href="#" class="hover:underline">Şərtlər və Qaydalar</a>
       </div>
     </footer>
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
     <script src="./js/script.js" type="module"></script>
     <script src="js/index.js"></script>
-    <script src="./js/service.js " type="module"></script>
+    <script src="./js/service.js" type="module"></script>
   </body>
 </html>
+
