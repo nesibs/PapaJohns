@@ -10,12 +10,11 @@
       "id": "1SfcpmSLl3ot4mc7Z-7ql"
     },
     {
+      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_5cf3c3909a3c5fa466dc6ed16c5836cc.jpg",
       "title": "Cheddar Meksika Papadias",
       "composition": "Pizza sousu, Yaşıl Bibər, Qril Toyuğu, Mozzarella, Cheddar, Halapeno",
-      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_5cf3c3909a3c5fa466dc6ed16c5836cc.jpg",
       "price": "9",
       "category": "papadias",
-      "variations": [],
       "id": "cbz3BHsR1j8F7J4mmjx9a"
     },
     {
@@ -55,112 +54,15 @@
       "id": "H3WlBKayVTVKvh-EhVUIO"
     },
     {
+      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_f7db43402b2cd4bda0a88b5028bc1dfd.jpg",
       "title": "Çiken BBQ Papadias",
       "composition": "Qril Toyuğu, Göbələk, Mozzarella, Barbekyu sousu",
-      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_f7db43402b2cd4bda0a88b5028bc1dfd.jpg",
-      "price": "9",
+      "price": "10",
       "category": "papadias",
-      "variations": [],
       "id": "JNHsV9QGKzfZOnuqxOV85"
     }
   ],
   "pizza": [
-    {
-      "title": "Qril Çiken Parmezan",
-      "composition": "Pizza sousu, Sarımsaqlı Parmezan sousu, Qril Toyuğu, Vetçina, Pomidor, Mozzarella, Halapeno Bibəri.",
-      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_f077c7209864bc10ba687d9c5fd2bd54.jpg",
-      "price": "5.5",
-      "subcategory": [
-        "hot"
-      ],
-      "category": "pizza",
-      "variations": [
-        {
-          "type": "Ənənəvi",
-          "price": "5.5",
-          "size": "Mini pizza, 15 sm -  5.5 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "11",
-          "size": "Kiçik, 23 sm -  11 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "11",
-          "size": "Kiçik, 23 sm -  11 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "17",
-          "size": "Orta, 30 sm -  17 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "17",
-          "size": "Orta, 30 sm -  17 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "21",
-          "size": "Böyük, 35 sm -  21 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "21",
-          "size": "Böyük, 35 sm -  21 M"
-        }
-      ],
-      "id": "tMcRbeMZzjbSUWZVSmxAW"
-    },
-    {
-      "title": "Amerikan Hot",
-      "composition": "Pizza Sousu, Mozzarella, Pepperoni, Halapeno Bibəri",
-      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_ec836ad55fb828a2816c7f52d317cabb.jpg",
-      "price": "5.5",
-      "subcategory": [
-        "hot"
-      ],
-      "category": "pizza",
-      "variations": [
-        {
-          "type": "Ənənəvi",
-          "price": "5.5",
-          "size": "Mini pizza, 15 sm -  5.5 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "9",
-          "size": "Kiçik, 23 sm -  9 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "14",
-          "size": "Orta, 30 sm -  14 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "19",
-          "size": "Böyük, 35 sm -  19 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "14",
-          "size": "Orta, 30 sm -  14 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "19",
-          "size": "Böyük, 35 sm -  19 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "9",
-          "size": "Kiçik, 23 sm -  9 M"
-        }
-      ],
-      "id": "4W3O5ET9thkewAEFAej-J"
-    },
     {
       "title": "Acılı Çiken Ranç",
       "composition": "Ranç Sousu, Qril Toyuğu, Göbələk,  Halapeno Bibəri, Pomidor, Mozzarella ",
@@ -211,47 +113,6 @@
       "id": "WI-lpUm85l7h9ToCWhdwJ"
     },
     {
-      "title": "Karnaval",
-      "composition": "Pizza Sousu, Göbələk, Qara Zeytun, Pepperoni, Mozzarella ",
-      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_09e9a3d604c6811fe50a621c3d3940c8.jpg",
-      "price": "9",
-      "subcategory": [],
-      "category": "pizza",
-      "variations": [
-        {
-          "type": "Ənənəvi",
-          "price": "9",
-          "size": "Kiçik, 23 sm -  9 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "14",
-          "size": "Orta, 30 sm -  14 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "19",
-          "size": "Böyük, 35 sm -  19 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "9",
-          "size": "Kiçik, 23 sm -  9 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "14",
-          "size": "Orta, 30 sm -  14 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "19",
-          "size": "Böyük, 35 sm -  19 M"
-        }
-      ],
-      "id": "lsfle5gwoS1JYOOYsOu4G"
-    },
-    {
       "title": "NY Style Margarita (40 sm)",
       "composition": "Pizza Sousu, Mozzarella, Pomidor, Oreqano",
       "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_6cc4d1e4fb49b0d8f707a952fc28d9d9.jpg",
@@ -262,13 +123,11 @@
       "id": "qlEY-kGyJBmXVMg7-aAlc"
     },
     {
+      "img": "https://www.papajohns.az/images/Spaysi-Italyan-x%C4%B1r%C3%A7%C4%B1lt%C4%B1l%C4%B1-p-800.jpeg",
       "title": "NY Style Grill Chicken (40sm)",
       "composition": "Pizza Sousu, Qril Toyuğu, Mozzarella, Pomidor",
-      "img": "https://www.papajohns.az/images/Spaysi-Italyan-x%C4%B1r%C3%A7%C4%B1lt%C4%B1l%C4%B1-p-800.jpeg",
       "price": "26",
-      "subcategory": [],
       "category": "pizza",
-      "variations": [],
       "id": "hj1vpBBSiAHYkY9ql-BAp"
     },
     {
@@ -1463,49 +1322,6 @@
         }
       ],
       "id": "5yREPOWxOJUcjyjBHiMsE"
-    },
-    {
-      "title": "Çiken Göbələk",
-      "composition": "Göbələk sousu, Qril toyuğu, Turşu xiyar, Göbələk, Mozzarella",
-      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_e3a441242ae92df92dd6fb3b523d2fb1.jpg",
-      "price": "12",
-      "subcategory": [
-        "cheeken"
-      ],
-      "category": "pizza",
-      "variations": [
-        {
-          "type": "Ənənəvi",
-          "price": "12",
-          "size": "Kiçik, 23 sm -  12 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "19",
-          "size": "Orta, 30 sm -  19 M"
-        },
-        {
-          "type": "Ənənəvi",
-          "price": "23",
-          "size": "Böyük, 35 sm -  23 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "12",
-          "size": "Kiçik, 23 sm -  12 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "19",
-          "size": "Orta, 30 sm -  19 M"
-        },
-        {
-          "type": "Nazik",
-          "price": "23",
-          "size": "Böyük, 35 sm -  23 M"
-        }
-      ],
-      "id": "zkhD85NasHA7kGgzqYu7Y"
     }
   ],
   "qalyanaltilar": [
@@ -1663,15 +1479,6 @@
       "category": "salat",
       "variations": [],
       "id": "dnRddjSK2MyvNe5h20rNB"
-    },
-    {
-      "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_5791f4ffe0062ee2f97b366f079ce9e8.jpg",
-      "title": "Yunan Salatı",
-      "composition": "Xiyar, Pomidor, Aysberq Kahı, Qara Zeytun, Feta Pendiri, İtalyan Sousu, Oreqano, Yaşıl Bibər",
-      "price": "6",
-      "category": "salat",
-      "variations": [],
-      "id": "0jf9vuFBlBIoG2jjSBUn2"
     },
     {
       "img": "https://order.papajohns.az/images/menu/PJ%20Azerbaijan/336x224_4cffa0ed49e334a46557e0953fcaf7b2.jpg",
@@ -1890,6 +1697,14 @@
       "variations": [],
       "variety": [],
       "id": "mOELfoWWgsaVpv80bcDqjjq"
+    },
+    {
+      "id": "1b72",
+      "img": "",
+      "title": "dsd",
+      "composition": "yenicola",
+      "price": "6",
+      "category": "icki"
     }
   ],
   "desertlar": [
@@ -1917,47 +1732,47 @@
   ],
   "category": [
     {
-      "id": 222,
+      "id": "222",
       "category": "kampaniyalar",
       "slug": "kampaniyalar"
     },
     {
-      "id": 1,
+      "id": "1",
       "category": "papadias",
       "slug": "papadias"
     },
     {
-      "id": 2,
+      "id": "2",
       "category": "pizza",
       "slug": "pizza"
     },
     {
-      "id": 3,
+      "id": "3",
       "category": "qalyanaltilar",
       "slug": "qalyanaltilar"
     },
     {
-      "id": 4,
+      "id": "4",
       "category": "salat",
       "slug": "salat"
     },
     {
-      "id": 5,
+      "id": "5",
       "category": "pasta",
       "slug": "pasta"
     },
     {
-      "id": 6,
+      "id": "6",
       "category": "souses",
       "slug": "souses"
     },
     {
-      "id": 7,
+      "id": "7",
       "category": "icki",
       "slug": "icki"
     },
     {
-      "id": 8,
+      "id": "8",
       "category": "desertlar",
       "slug": "desertlar"
     }

@@ -1,3 +1,4 @@
+
 $(() => {
     const image = ['slider1.png', 'slider2.png', 'slider3.png', 'slider4.jpg', 'slider5.png']
     const path = 'img/'
